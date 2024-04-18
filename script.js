@@ -6,7 +6,7 @@ async function sendInfo(event) {
     const webhookContents = {
         embeds: [{
             title: 'Feedback Form Submission',
-            description: '@everyone'
+            description: '@everyone',
            
             color: '12618607'
         }],
