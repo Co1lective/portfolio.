@@ -8,8 +8,19 @@ h1 {
     color: white;
     background-color: #c08b6f;
 }
+.lead {
+    font-size: calc(10px + 1.8vw);
+}
 .container {
     margin-top: 4px;
+}
+label {
+    font-size: calc(5px + 1.6vw);
+    font-weight: 350;
+}
+input, textarea {
+    border: double #c08b6f;
+    background-color: #ffffff;
 }
 button {
     color: #c08b6f;
