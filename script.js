@@ -25,7 +25,6 @@ async function sendInfo(event) {
 
     if (response.ok) {
         alert('Feedback sent.')
-        document.getElementById("form").reset();
     } else {
         alert('Error occured. Try again later.')
     }
