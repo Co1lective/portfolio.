@@ -3,19 +3,17 @@ body {
     width: 100%;
 }
 h1 {
-    font-size: calc(35px + 1.5vw);
+   
     font-weight: 700;
     color: white;
     background-color: #c08b6f;
 }
-.lead {
-    font-size: calc(10px + 1.8vw);
-}
+
 .container {
     margin-top: 4px;
 }
 label {
-    font-size: calc(5px + 1.6vw);
+    
     font-weight: 350;
 }
 input, textarea {
