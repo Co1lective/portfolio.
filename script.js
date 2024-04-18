@@ -3,10 +3,16 @@ async function sendInfo(event) {
 
     const webhookContents = {
         embeds: [{
-            title: 'Feedback Form Submission',
+           title: 'Feedback Form Submission',
             fields: [
-                { name: 'Hi lol :O', value: 'Tehehee'},
-                { name: 'Hi lol 2 :O', value: 'Tehehe'}
+                { name: 'Username', value: 'Username' },
+                { name: 'Web && Design Rating', value: 'Username' },
+                { name: 'Overall Event Rating', value: 'Username' },
+                { name: 'Announcement Formatting Rating', value: 'Username' },
+                { name: 'Length Between Milestones Rating', value: 'Username' },
+                { name: 'Helpfulness Rating', value: 'Username' },
+                { name: 'Future Event Suggestions', value: 'Username' },
+                { name: 'Feedback', value: 'Username' }
             ],
             color: '12618607'
         }],
