@@ -5,8 +5,8 @@ async function sendInfo(event) {
         embeds: [{
             title: 'Feedback Form Submission',
             fields: [
-                { name: 'Hi lol :O'},
-                { name: 'Hi lol :O'}
+                { name: 'Hi lol :O', value: 'Tehehee'},
+                { name: 'Hi lol 2 :O', value: 'Tehehe'}
             ],
             color: '12618607'
         }],
