@@ -8,6 +8,9 @@ h1 {
     color: white;
     background-color: #c08b6f;
 }
+.container {
+    margin-top: 4px;
+}
 button {
     color: #c08b6f;
     outline: auto;
