@@ -1,13 +1,7 @@
-async function sendInfo(event) {
-   
-
-
-
+async function sendInfo() {
     const webhookContents = {
         embeds: [{
             title: 'Feedback Form Submission',
-    
-           
             color: '12618607'
         }],
     };
@@ -20,7 +14,7 @@ async function sendInfo(event) {
             'Content-Type': 'application/json',
             'Authorization': "4XyCPCuf6Dq65gcPBZPBjq59Uwzs1d971uXRjPYii3KIV2AZoaZ4zkjED8XGbbv9"
         },
-        body: JSON.stringify(webhookContents),
+        body: JSON.stringify(webhookContents)
     });
 
     if (response.ok) {
