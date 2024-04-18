@@ -15,38 +15,7 @@
     <h1 class="display pt-4">Feedback Form</h1>
     <p class="lead">Use this form to provide constructive criticism. It contains a variety of <mark>specific</mark> and <mark>vague</mark> questions. Answer honestly as the purpose of this is for me to find things to work on.</p>
     <form onsubmit="sendInfo(event)" method="POST" id="form">
-        <div class="container">
-            <label for="username">Username:</label><br>
-            <input id="username" type="text"><br>
-        </div>
-        <div class="container">
-            <label class="text-wrap" for="currentEventRating">On a scale of <mark>1</mark> - <mark>10</mark>, rate the <mark>Web && Design</mark> event.</label><br>
-            <input type="number" id="currentEventRating" min="1" max="10">
-        </div>
-        <div class="container">
-            <label class="text-wrap" for="overallEventRating">On a scale of <mark>1</mark> - <mark>10</mark>, rate my events <mark>overall</mark>. [if you haven't participated in any of my events prior to my latest one, feel free to leave this blank]</label><br>
-            <input type="number" id="overallEventRating" min="1" max="10">
-        </div>
-        <div class="container">
-            <label class="text-wrap" for="annRating">On a scale of <mark>1</mark> - <mark>10</mark>, rate the formatting of my announcements [i.e. Do the dividers make them easier to read? Do the range of colours hurt your eyes?].</label><br>
-            <input type="number" id="annRating" min="1" max="10">
-        </div>
-        <div class="container">
-            <label for="timingRating">Did you find the length between event milestones [opening announcement, submissions opening/closing, voting etc.] decent? If not, how could it be improved?</label><br>
-            <textarea id="timingRating"></textarea>
-        </div>
-        <div class="container">
-            <label for="helpRating">Do you feel that I am helpful when it comes to clarifying questions people have, or solving any other issues that may arise? If not, how could I improve that?</label><br>
-            <textarea id="helpRating"></textarea>
-        </div>
-        <div class="container">
-            <label for="futEvents">What events would you like to see hosted in the future? They can be <mark>Community</mark> or <mark>Submission</mark> based events.</label><br>
-            <textarea id="futEvents" cols="25"></textarea>
-        </div>
-        <div class="container">
-            <label for="feedback">Additional Feedback:</label><br>
-            <textarea id="feedback" cols="35"></textarea>
-        </div>
+       
         <button type="submit">Submit</button>
     </form>
     <script src="script.js"></script>
