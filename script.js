@@ -1,5 +1,5 @@
 async function sendInfo(event) {
-    event.preventDefault();
+   
 
 
 
